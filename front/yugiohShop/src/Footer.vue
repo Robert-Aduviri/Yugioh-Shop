@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <landing />
+  <div id="vue-footer">
+  
   </div>
 </template>
 

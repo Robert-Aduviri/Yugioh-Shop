@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <landing />
+  <div id="productlist">
+  
   </div>
 </template>
 
