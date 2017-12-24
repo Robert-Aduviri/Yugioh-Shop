@@ -2,7 +2,6 @@
   <div id="app">
     <img src="http://uploads1.yugioh.com/character/4/detail/detail/solomon-l.png?1375717041">
     <h1>{{ msg }}</h1>
-    <div 
   </div>
 </template>
 
@@ -30,5 +29,4 @@ export default {
 h1, h2 {
   font-weight: normal;
 }
-
 </style>
