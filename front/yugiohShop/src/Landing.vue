@@ -1,7 +1,10 @@
 <template>
   <div id="landing">
-    <img src="http://uploads1.yugioh.com/character/4/detail/detail/solomon-l.png?1375717041">
-    <h1>{{ msg }}</h1>
+    <sidebar class="sidebar"/>
+    <div class="main">
+      <img src="http://uploads1.yugioh.com/character/4/detail/detail/solomon-l.png?1375717041">
+      <h1>{{ msg }}</h1>
+    </div>    
   </div>
 </template>
 
@@ -22,7 +25,20 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+#landing {
+  display: flex;
+}
+
+.sidebar {
+  order: 1;
+	flex: 1;
+}
+
+.main {
+  order: 1;
+  flex: 1;
 }
 
 h1, h2 {

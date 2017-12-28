@@ -1,6 +1,6 @@
 <template>
   <div id="sidebar">
-  
+    <p> Sidebar </p>
   </div>
 </template>
 
@@ -8,4 +8,11 @@
 export default { }
 </script>
 
-<style lang="scss" />
+<style lang="scss">
+
+#sidebar {
+  width: 300px;
+  background-color: aquamarine;
+}
+
+</style>
