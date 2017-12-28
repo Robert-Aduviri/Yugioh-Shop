@@ -11,7 +11,7 @@ export default { }
 <style lang="scss">
 
 #sidebar {
-  width: 300px;
+  max-width: 300px;
   background-color: aquamarine;
 }
 
