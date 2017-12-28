@@ -1,0 +1,14 @@
+.textologo{
+    color:black;
+    text-align:center;
+    font-size:200%;
+    font-family: Impact, Charcoal, sans-serif;
+}
+.arribabar{
+    background-color:rgb(234, 239, 245);
+    height:60px;
+}
+.arribabarfamiliar{
+    background-color:rgb(234, 239, 245);
+    height:30px;
+}

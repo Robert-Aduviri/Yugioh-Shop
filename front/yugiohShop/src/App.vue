@@ -2,6 +2,7 @@
   <div id="app">
     <vue-header />
     <landing />
+    <vue-footer/>
   </div>
 </template>
 
